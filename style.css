@@ -52,11 +52,16 @@ body {
 
 div.social em {
   padding: 0 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: whitesmoke;
   transition: 0.4s;
 }
 
 div.social  em:hover {
  color: whitesmoke
+}
+
+.center .profpic button {
+    background-color: rgb(129, 186, 186);
+    border: cornflowerblue;
 }
