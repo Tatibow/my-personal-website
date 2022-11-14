@@ -41,3 +41,22 @@ body {
   width: 70%;
  margin: 10px auto;
 }
+
+.content h2 {
+    font-weight: 400;
+}
+
+.content h3 {
+    margin-top: 20px;
+}
+
+div.social em {
+  padding: 0 10px;
+  font-size: 30px;
+  color: whitesmoke;
+  transition: 0.4s;
+}
+
+div.social  em:hover {
+ color: whitesmoke
+}
