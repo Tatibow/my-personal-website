@@ -1,0 +1,10 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "name-holder",
+            "about": "about-holder",
+            "link": "link-holder"
+        }
+    ]
+}

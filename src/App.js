@@ -1,23 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React, { useState, useEffect } from "react"
+// import { Switch, Route } from "react-router-dom";
+import CenterCard from './components/CenterCard';
+import NewProjectForm from "./components/NewProjectForm"
+import Portfolio from "./components/Portfolio"
+import NavBar from "./components/NavBar"
+ import './App.css';
 
 function App() {
+  // USESTATES
+  const [projects, setProjects] = useState([])
+  const [page, setPage] = useState("/")
+
+  const url = ""
+  useEffect(() => {
+    fetch(url)
+    .then(res => res.json())
+    .then(data => setProjects)
+  })
+
+  // ADDS NEW PROJECT (FORM CB FUNCTION)
+    // const addNewProject = (newProject) => {
+    //   const newData = [...projects, newProject]
+    //   setProjects(newData)
+    // }
+
+
+    function getCurrentPage() {
+      switch (page) {
+        case "/":
+          return <CenterCard url={url}/>
+         case "/Portfolio":
+        return <Portfolio projects={projects}/>
+        case "/NewProjectForm":
+        return  <NewProjectForm url={url}/>
+         // eslint-disable-next-line
+          break;
+        default:
+          return <h1>404 not found</h1>
+      }
+    }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <NavBar onChangePage={setPage}/>
+       {getCurrentPage()}
+          {/* <NavBar onChangePage={setPage}/>
+          <Portfolio projects={projects}/>
+           <NewProjectForm url={url}/>
+           <CenterCard url={url}/> */}
     </div>
   );
 }
