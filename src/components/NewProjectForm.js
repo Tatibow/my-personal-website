@@ -32,7 +32,10 @@ function NewProjectForm({url, addNewProject}) {
             },
             body: JSON.stringify(newProject)
         })
-       .the
+       .then(res => res.json())
+       .then(addNewProject)
+
+       // FORM RESET
         setFormData(initialData)
     }
 
