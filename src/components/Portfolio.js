@@ -7,6 +7,7 @@ function Portfolio({ projects }) {
         return <Project
             id={project.id}
             name={project.name}
+            image={project.image}
             about={project.about}
             link={project.link}
             key={project.id}
@@ -15,10 +16,10 @@ function Portfolio({ projects }) {
 
     return (
             <>
-        <div className="projects">
         <h1 id="projects-heading">Projects</h1> <br/>
+        <ul className="projects">
          {projectCard}
-        </div>
+        </ul>
         </>
     )
 }

@@ -23,7 +23,16 @@ function NewProjectForm({url, addNewProject}) {
             about: formData.about,
             link: formData.link
         }
-        addNewProject(newProject)
+
+        // POST REQUEST
+        fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(newProject)
+        })
+       .the
         setFormData(initialData)
     }
 

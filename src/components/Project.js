@@ -1,15 +1,14 @@
 import React from "react"
 
-function Project({id, name, about, link}) {
+function Project({id, name, image,about, link}) {
 
    return (
-
-       <div id="project">
-              <h2>{name}</h2>
+       <li className="project">
+            <img src={image} alt="dummy project pic"/>
+              <h3>{name}</h3>
                <p>{about}</p>
                <a href={link}>{name} Link</a>
-         </div>
-
+         </li>
    )
 }
 

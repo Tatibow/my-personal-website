@@ -141,12 +141,50 @@ nav a:active {
 
 
 /* projects css */
-#project {
+/* .project {
   width: 150%;
   background-color:rgb(129, 186, 186);
   height: 300%;
   text-align: center;
   border-radius: 5px;
+} */
+
+.projects {
+  list-style: none;
+
+}
+
+.project {
+  margin: 1rem;
+  background-color:rgb(129, 186, 186);
+  border-radius: 5px;
+}
+
+.project img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    width: calc(33% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .project {
+    width: calc(20% - 2rem);
+  }
 }
 
 

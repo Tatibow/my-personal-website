@@ -12,18 +12,19 @@ function App() {
   const [projects, setProjects] = useState([])
   const [page, setPage] = useState("/")
 
-  const url = ""
+  const url = "http://localhost:3000/projects"
+
   useEffect(() => {
     fetch(url)
     .then(res => res.json())
-    .then(data => setProjects)
-  })
+    .then(data => setProjects(data))
+  }, [])
 
   // ADDS NEW PROJECT (FORM CB FUNCTION)
-    // const addNewProject = (newProject) => {
-    //   const newData = [...projects, newProject]
-    //   setProjects(newData)
-    // }
+    const addNewProject = (newProject) => {
+      const newData = [...projects, newProject]
+      setProjects(newData)
+    }
 
 
     function getCurrentPage() {
@@ -33,7 +34,7 @@ function App() {
          case "/Portfolio":
         return <Portfolio projects={projects}/>
         case "/NewProjectForm":
-        return  <NewProjectForm url={url}/>
+        return  <NewProjectForm url={url} addNewProject={addNewProject}/>
          // eslint-disable-next-line
           break;
         default:

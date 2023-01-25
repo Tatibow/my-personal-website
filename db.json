@@ -2,9 +2,10 @@
     "projects": [
         {
             "id": 1,
-            "name": "name-holder",
-            "about": "about-holder",
-            "link": "link-holder"
+            "name": "Dummy Project",
+            "image":"https://i.postimg.cc/76tsQLV5/IMG-3399.jpg",
+            "about": "Dummy about",
+            "link": "Dummy Project link"
         }
     ]
 }
