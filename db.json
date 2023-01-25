@@ -1,11 +1,11 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "Dummy Project",
-            "image":"https://i.postimg.cc/76tsQLV5/IMG-3399.jpg",
-            "about": "Dummy about",
-            "link": "Dummy Project link"
-        }
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "name": "Dummy Project",
+      "image": "https://i.postimg.cc/76tsQLV5/IMG-3399.jpg",
+      "about": "Dummy about",
+      "link": "Dummy Project link"
+    }
+  ]
 }

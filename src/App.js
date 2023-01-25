@@ -5,7 +5,7 @@ import CenterCard from './components/CenterCard';
 import NewProjectForm from "./components/NewProjectForm"
 import Portfolio from "./components/Portfolio"
 import NavBar from "./components/NavBar"
-import AboutMe from ".components/AboutMe"
+import AboutMe from "./components/AboutMe"
  import './App.css';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
       switch (page) {
         case "/":
           return <CenterCard url={url}/>
-          case "AboutMe":
+          case "/AboutMe":
             return <AboutMe/>
          case "/Portfolio":
         return <Portfolio projects={projects}/>
