@@ -16,16 +16,19 @@ code {
 :root {
   text-align: center;
   background-color: antiquewhite;
-} * {
+}
+
+* {
   margin: 0;
   padding: 0;
 }
 
-body, html {
+body,
+html {
   color: brown;
   font-family: italic;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
@@ -33,15 +36,15 @@ body, html {
 .center .profpic img {
   border-radius: 50%;
   width: 140px;
-  height:140px;
+  height: 140px;
   margin-top: 5%;
   object-fit: cover;
   object-position: 0, -8px;
- }
+}
 
- .center {
+.center {
   width: 100%;
-  background-color:rgb(129, 186, 186);
+  background-color: rgb(129, 186, 186);
   height: 100%;
   text-align: center;
   border-radius: 5px;
@@ -49,7 +52,7 @@ body, html {
 
 /* button */
 #project-portfolio {
-  background-color:rgb(129, 186, 186);
+  background-color: rgb(129, 186, 186);
   padding: 0 10px;
   font-size: 20px;
   color: whitesmoke;
@@ -60,10 +63,11 @@ body, html {
   padding: 30px;
 }
 
-.content h2, p {
-font-weight: lighter;
-width: 70%;
-margin: 10px auto;
+.content h2,
+p {
+  font-weight: lighter;
+  width: 70%;
+  margin: 10px auto;
 }
 
 .content h2 {
@@ -75,14 +79,14 @@ margin: 10px auto;
 }
 
 div.social em {
-padding: 0 10px;
-font-size: 20px;
-color: whitesmoke;
-transition: 0.4s;
+  padding: 0 10px;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: 0.4s;
 }
 
-div.social  em:hover {
-color: whitesmoke
+div.social em:hover {
+  color: whitesmoke
 }
 
 
@@ -96,7 +100,7 @@ div#portfolio-div {
 
 .new-project-form {
   width: 100%;
-  background-color:rgb(129, 186, 186);
+  background-color: rgb(129, 186, 186);
   height: 100%;
   text-align: center;
   border-radius: 5px;
@@ -110,7 +114,6 @@ div#portfolio-div {
 #submit-btn {
   background-color: brown;
   font-family: italic
-
 }
 
 
@@ -135,8 +138,8 @@ nav a {
 
 nav a:hover,
 nav a:active {
-  color: rgb(129, 186, 186) ;
-  border-bottom: 2px solid rgb(129, 186, 186) ;
+  color: rgb(129, 186, 186);
+  border-bottom: 2px solid rgb(129, 186, 186);
 }
 
 
@@ -156,18 +159,23 @@ nav a:active {
 
 .project {
   margin: 1rem;
-  background-color:rgb(129, 186, 186);
+  background-color: rgb(129, 186, 186);
   border-radius: 5px;
 }
 
 .project img {
   width: 100%;
+  /* width: 400px */
 }
 
 @media (min-width: 768px) {
   .projects {
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
   }
 
   .project {
@@ -178,6 +186,12 @@ nav a:active {
 @media (min-width: 1024px) {
   .project {
     width: calc(25% - 2rem);
+  width:400px;
+  border:1px solid lightgray;
+  margin:20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow:0 5px 5px rgba(0,0,0,0.5)
   }
 }
 
@@ -192,6 +206,18 @@ nav a:active {
   border-bottom: 2px solid brown
 }
 
-/* .icons {
+#spaceDefault {
+  margin-bottom: 20px
+}
 
-} */
+.topSpaceDefault {
+  margin-top: 35px
+}
+
+
+/* about me */
+
+.about-me-headers {
+  margin-top: 55px;
+  border-top:  2px solid brown;
+}

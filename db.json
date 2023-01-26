@@ -6,6 +6,13 @@
       "image": "https://i.postimg.cc/76tsQLV5/IMG-3399.jpg",
       "about": "Dummy about",
       "link": "Dummy Project link"
+    },
+    {
+      "name": "Founder's House Coffee Shop",
+      "image": "https://i.postimg.cc/s2C7mpTD/Screenshot-15.png",
+      "about": "This website was my first project worked on with 3 other amazing engineers! It includes multiple features, such as allowing the menu item to enlarge upon hover, placing your chosen menu item in the front and center of the screen when you click on the image, and the coffee name, price, description, and ingredients appear when you click on your desired coffee image. ",
+      "link": "https://github.com/mplisco/Coffee_Shop",
+      "id": 3
     }
   ]
 }

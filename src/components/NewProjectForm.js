@@ -4,6 +4,7 @@ import React, {useState} from "react"
 function NewProjectForm({url, addNewProject}) {
     const initialData = {
         name: "",
+        image: "",
         about: "",
         link: ""
     }
@@ -20,6 +21,7 @@ function NewProjectForm({url, addNewProject}) {
 
         const newProject = {
             name: formData.name,
+            image: formData.image,
             about: formData.about,
             link: formData.link
         }
@@ -48,7 +50,8 @@ function NewProjectForm({url, addNewProject}) {
             handleSubmit(e);
         }}>
             <input className="spaceDefault" type="text" placeholder="Project Name" name="name" value={formData.name} onChange={handleFormData}/> <br/>
-            <input className="spaceDefault" type="text" placeholder="About Project" name="about" value={formData.about} onChange={handleFormData}/> <br/>
+            <input className="spaceDefault" type="text" placeholder="Project Image" name="image" value={formData.image} onChange={handleFormData}/> <br/>
+            <textarea className="spaceDefault" type="text" placeholder="About Project" name="about" value={formData.about} onChange={handleFormData}/> <br/>
             <input className="spaceDefault" type="text" placeholder="Project URL" name="link" value={formData.link} onChange={handleFormData}/> <br/>
             <button id="submit-btn" className="spaceDefault" type="submit"><em>Add New Project</em></button>
         </form>

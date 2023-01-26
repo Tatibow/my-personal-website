@@ -16,7 +16,7 @@ function Portfolio({ projects }) {
 
     return (
             <>
-        <h1 id="projects-heading">Projects</h1> <br/>
+        <h1 className="topSpaceDefault" id="projects-heading">Projects</h1>
         <ul className="projects">
          {projectCard}
         </ul>
