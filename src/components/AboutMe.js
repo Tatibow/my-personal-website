@@ -22,11 +22,12 @@ function AboutMe() {
                         <em>
                             <h3 className="spaceDefault">passions...</h3>
                             <span id="spaceDefault" className="icons">
-                                <img src="https://i.postimg.cc/ydQ3y6zT/icons8-javascript-50.png" alt="" />
-                                <img src="https://i.postimg.cc/TPjPCdnD/icons8-react-80.png" alt="" />
-                                <img src="https://i.postimg.cc/05X7pnkq/icons8-html-50.png" alt="" />
-                                <img src="https://i.postimg.cc/PfSQShM9/icons8-css-50.png" alt="" />
-                                <img src="https://i.postimg.cc/9Xkq4fbm/icons8-ruby-programming-language-48.png" alt="" />
+                                <img src="https://i.postimg.cc/ydQ3y6zT/icons8-javascript-50.png" alt="" title="JavaScript" />
+                                <img src="https://i.postimg.cc/TPjPCdnD/icons8-react-80.png" alt="" title="React"/>
+                                <img src="https://i.postimg.cc/05X7pnkq/icons8-html-50.png" alt="" title="HTML"/>
+                                <img src="https://i.postimg.cc/PfSQShM9/icons8-css-50.png" alt="" title="CSS"/>
+                                <img src="https://i.postimg.cc/9Xkq4fbm/icons8-ruby-programming-language-48.png" title="Ruby" alt="" />
+                                {/* <img src="rails link" alt="" title="Rails"/> */}
                             </span>
                             <h3 className="spaceDefault">hobbies...</h3>
                             I love playing guitar, music has always been my first love, i'm an avid reader of all genres (although romance is my guilty pleasure).
@@ -47,9 +48,17 @@ function AboutMe() {
                             </h3>
                             <h3 className="spaceDefault">want to learn...</h3>
                             <span id="spaceDefault" className="icons">
-                                <img src="https://i.postimg.cc/VNXFgC7W/icons8-python-50.png" alt="" />
-                                <img src="https://i.postimg.cc/156cs6Sh/icons8-php-50.png" alt="" />
-                                <img src="https://i.postimg.cc/kgvQtmDT/icons8-java-50.png" alt="" />
+                                <img src="https://i.postimg.cc/VNXFgC7W/icons8-python-50.png" title="Python" alt="" />
+                                <img src="https://i.postimg.cc/156cs6Sh/icons8-php-50.png" title="PHP" alt="" />
+                                <img src="https://i.postimg.cc/kgvQtmDT/icons8-java-50.png" title="Java" alt="" />
+                                {/* <img src="django link" alt="" title="django"/> */}
+                                {/* <img src="spring framework" alt="" title=""spring framework""/> */}
+                                {/* <img src="AWS link" alt="" title="AWS"/> */}
+                                {/* <img src="project management link" alt="" title="django"/> */}
+                                {/* <img src="cloud link" alt="" title="cloud engineering"/> */}
+                                {/* <img src="blockchain" alt="" title="blockchain"/> */}
+                                {/* <img src="sql link" alt="" title="SQL"/> */}
+
                             </span>
 
                             <h3 className="spaceDefault">currently learning...</h3>
