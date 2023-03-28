@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react"
 // import { Switch, Route } from "react-router-dom";
 import CenterCard from './components/CenterCard';
-import NewProjectForm from "./components/NewProjectForm"
+// import NewProjectForm from "./components/NewProjectForm"
 import Portfolio from "./components/Portfolio"
 import NavBar from "./components/NavBar"
 import AboutMe from "./components/AboutMe"
@@ -36,9 +36,9 @@ function App() {
             return <AboutMe/>
          case "/Portfolio":
         return <Portfolio projects={projects}/>
-        case "/NewProjectForm":
-        return  <NewProjectForm url={url} addNewProject={addNewProject}/>
-         // eslint-disable-next-line
+        // case "/NewProjectForm":
+        // return  <NewProjectForm url={url} addNewProject={addNewProject}/>
+        //  // eslint-disable-next-line
           break;
         default:
           return <h1>404 not found</h1>

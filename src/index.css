@@ -15,7 +15,8 @@ code {
 
 :root {
   text-align: center;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color: rgb(224, 39, 70);
 }
 
 * {
@@ -25,7 +26,7 @@ code {
 
 body,
 html {
-  color: brown;
+  color: rgb(224, 39, 70);
   font-family: italic;
   display: flex;
   justify-content: center;
@@ -44,7 +45,7 @@ html {
 
 .center {
   width: 100%;
-  background-color: rgb(129, 186, 186);
+  background-color: black;
   height: 100%;
   text-align: center;
   border-radius: 5px;
@@ -123,7 +124,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background-color: antiquewhite;
+  background-color: ff69b4;
 }
 
 nav a {
@@ -131,17 +132,21 @@ nav a {
   margin: 1rem 2rem;
   text-decoration: none;
   font-size: 1.2em;
-  color: brown;
-  border-bottom: 2px solid brown;
+  color: black;
+  border-bottom: 2px solid black;
   transition: 0.1s;
 }
 
 nav a:hover,
 nav a:active {
-  color: rgb(129, 186, 186);
-  border-bottom: 2px solid rgb(129, 186, 186);
+  color: whitesmoke;
+  border-bottom: whitesmoke;
 }
 
+nav,
+html {
+  color: black;
+}
 
 /* projects css */
 /* .project {
@@ -159,9 +164,14 @@ nav a:active {
 
 .project {
   margin: 1rem;
-  background-color: rgb(129, 186, 186);
-  border-radius: 5px;
+  background-color:black;
+  /* border-radius: 5px; */
+  width:400px;
+  margin:20px;
+  border-radius: 20px;
 }
+
+
 
 .project img {
   width: 100%;
@@ -203,7 +213,7 @@ nav a:active {
 
 
 #projects-heading {
-  border-bottom: 2px solid brown
+  border-bottom: 2px solid black
 }
 
 #spaceDefault {
@@ -219,5 +229,20 @@ nav a:active {
 
 .about-me-headers {
   margin-top: 55px;
-  border-top:  2px solid brown;
+  border-top:  2px solid black;
+}
+
+.social {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+.about-me, html {
+  color: black;
+}
+.passionate-about, html {
+  color: black;
+}
+.learning, html {
+  color: black;
 }

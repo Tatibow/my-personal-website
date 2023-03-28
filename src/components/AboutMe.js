@@ -27,9 +27,11 @@ function AboutMe() {
                                 <img src="https://i.postimg.cc/05X7pnkq/icons8-html-50.png" alt="" title="HTML"/>
                                 <img src="https://i.postimg.cc/PfSQShM9/icons8-css-50.png" alt="" title="CSS"/>
                                 <img src="https://i.postimg.cc/9Xkq4fbm/icons8-ruby-programming-language-48.png" title="Ruby" alt="" />
+                                <img src="https://i.postimg.cc/J76gVBWQ/icons8-sql-50.png" alt="" title="SQL (Structured Query Language)"/>
+
                                 {/* <img src="rails link" alt="" title="Rails"/> */}
                             </span>
-                            <h3 className="spaceDefault">hobbies...</h3>
+                            <h3  className="spaceDefault">hobbies...</h3>
                             I love playing guitar, music has always been my first love, i'm an avid reader of all genres (although romance is my guilty pleasure).
                             A Total movie lover and movie theater rat It's basically my second home, I try to post on letterboxd whenever I go.
                         </em>
@@ -53,11 +55,11 @@ function AboutMe() {
                                 <img src="https://i.postimg.cc/kgvQtmDT/icons8-java-50.png" title="Java" alt="" />
                                 {/* <img src="django link" alt="" title="django"/> */}
                                 {/* <img src="spring framework" alt="" title=""spring framework""/> */}
-                                {/* <img src="AWS link" alt="" title="AWS"/> */}
-                                {/* <img src="project management link" alt="" title="django"/> */}
-                                {/* <img src="cloud link" alt="" title="cloud engineering"/> */}
-                                {/* <img src="blockchain" alt="" title="blockchain"/> */}
-                                {/* <img src="sql link" alt="" title="SQL"/> */}
+                                <img src="https://i.postimg.cc/BbHMKtXj/icons8-amazon-web-services-32.png" alt="" title="AWS (Amazon Web Services)"/>
+                                <img src="https://i.postimg.cc/XqFDkrBM/icons8-project-management-50.png" alt="" title="Project Management"/>
+                                <img src="https://i.postimg.cc/kXqkvysf/icons8-secure-cloud-50.png" alt="" title="Cloud Engineering"/>
+                                <img src="https://i.postimg.cc/yYrzPbds/icons8-blockchain-technology-30.png" alt="" title="Blockchain"/>
+                                {/* <img src="https://i.postimg.cc/J76gVBWQ/icons8-sql-50.png" alt="" title="SQL (Structured Query Language)"/> */}
 
                             </span>
 

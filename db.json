@@ -1,18 +1,31 @@
 {
   "projects": [
     {
-      "id": 1,
-      "name": "Dummy Project",
-      "image": "https://i.postimg.cc/76tsQLV5/IMG-3399.jpg",
-      "about": "Dummy about",
-      "link": "Dummy Project link"
-    },
-    {
+      "id": 3,
       "name": "Founder's House Coffee Shop",
       "image": "https://i.postimg.cc/s2C7mpTD/Screenshot-15.png",
       "about": "This website was my first project worked on with 3 other amazing engineers! It includes multiple features, such as allowing the menu item to enlarge upon hover, placing your chosen menu item in the front and center of the screen when you click on the image, and the coffee name, price, description, and ingredients appear when you click on your desired coffee image. ",
-      "link": "https://github.com/mplisco/Coffee_Shop",
-      "id": 3
+      "github_link": "https://github.com/mplisco/Coffee_Shop",
+      "demo": "",
+      "tech_used": "HTML/CSS and JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "Safari Sorority",
+      "image": "https://i.postimg.cc/SQ7sDD6P/Screenshot-16.png",
+      "about": "The Safari Sorority is designed for users to create, search through, and view the various social media posts made for any animal you can think of! Focusing on front-end development, this project was designed to apply our team's skills working with React in a fun and creative way.",
+      "github_link": "https://github.com/KlajdoQ/safari-sorority",
+      "demo": "",
+      "tech_used": "JavaScript, React, CSS, and Json-server for data"
+    },
+    {
+      "name": "Tatiana's Code Challenge",
+      "image": "https://i.postimg.cc/vTGTH6K0/Screenshot-21.png",
+      "about": "Tatiana's code challenge was created with 2 other amazing developers meant to give you small coding exercises once a day. ",
+      "github_link": "https://github.com/Irishwolf13/Project3",
+      "demo": "",
+      "tech_used": "Frontend: JavaScript, React, and Tail wind & Backend: Ruby, ActiveRecord, and Sinatra",
+      "id": 5
     }
   ]
 }

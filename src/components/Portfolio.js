@@ -9,7 +9,9 @@ function Portfolio({ projects }) {
             name={project.name}
             image={project.image}
             about={project.about}
-            link={project.link}
+            github_link={project.github_link}
+            demo={project.demo}
+            tech={project.tech_used}
             key={project.id}
         />
     })
