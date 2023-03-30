@@ -7,7 +7,7 @@ function Portfolio({ projects }) {
         return <Project
             id={project.id}
             name={project.name}
-            image={project.image}
+            images={project.images}
             about={project.about}
             github_link={project.github_link}
             demo={project.demo}

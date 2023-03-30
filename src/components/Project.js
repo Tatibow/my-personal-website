@@ -1,17 +1,25 @@
 import React from "react"
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
-function Project({id, name, image,about, github_link, demo, tech}) {
+function Project({id, name, images, about, github_link, demo, tech}) {
 
 
    return (
-       <li className="project">
-            <img src={image} alt="project pic"/>
+      <div className="project">
+            <li>
+                  <Carousel>
+                        {images.map(image => {
+                        return <img src={image} alt="project pic" key={image}/>
+                        })}
+                  </Carousel>
               <h3>{name}</h3>
                <p>{about}</p>
                <p>{tech}</p>
-               <a href={github_link}>{name} Github Link</a> <br/>
+               <a  href={github_link}>{name} Github</a> <br/>
                <a href={demo}>{demo === "" ? null : name + " demo"}</a>
-         </li>
+            </li>
+      </div>
    )
 }
 

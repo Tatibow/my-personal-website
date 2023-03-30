@@ -2,6 +2,10 @@ import React from "react"
 
 
 function AboutMe() {
+
+
+
+
     return (
         <>
             <div id="spaceDefault" className="about-me">
@@ -16,18 +20,18 @@ function AboutMe() {
             </div>
 
             <div id="spaceDefault" className="passionate-about">
-                <h1 className="about-me-headers">Passions & Hobbies</h1>
+                <h1 className="about-me-headers">Skills & Hobbies</h1>
                 <p>
                     <strong>
                         <em>
-                            <h3 className="spaceDefault">passions...</h3>
+                            <h3 className="spaceDefault">skills...</h3>
                             <span id="spaceDefault" className="icons">
                                 <img src="https://i.postimg.cc/ydQ3y6zT/icons8-javascript-50.png" alt="" title="JavaScript" />
-                                <img src="https://i.postimg.cc/TPjPCdnD/icons8-react-80.png" alt="" title="React"/>
+                                <img  src="https://i.postimg.cc/TPjPCdnD/icons8-react-80.png" alt="" title="React"/>
                                 <img src="https://i.postimg.cc/05X7pnkq/icons8-html-50.png" alt="" title="HTML"/>
-                                <img src="https://i.postimg.cc/PfSQShM9/icons8-css-50.png" alt="" title="CSS"/>
-                                <img src="https://i.postimg.cc/9Xkq4fbm/icons8-ruby-programming-language-48.png" title="Ruby" alt="" />
-                                <img src="https://i.postimg.cc/J76gVBWQ/icons8-sql-50.png" alt="" title="SQL (Structured Query Language)"/>
+                                <img  src="https://i.postimg.cc/PfSQShM9/icons8-css-50.png" alt="" title="CSS"/>
+                                <img  src="https://i.postimg.cc/9Xkq4fbm/icons8-ruby-programming-language-48.png" title="Ruby" alt="" />
+                                <img  src="https://i.postimg.cc/J76gVBWQ/icons8-sql-50.png" alt="" title="SQL (Structured Query Language)"/>
 
                                 {/* <img src="rails link" alt="" title="Rails"/> */}
                             </span>
