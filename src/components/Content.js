@@ -5,7 +5,7 @@ function Content() {
     return (
         <div className="content">
             <h1>Tatiana Bowman</h1>
-            <h2>Full-Stack Software Developer</h2>
+            <h2>Full-Stack Software Engineer</h2>
 
             <div>
             <h3 className="greeting"> Hey! Welcome to my website!</h3>

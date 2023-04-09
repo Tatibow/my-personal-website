@@ -6,6 +6,7 @@ import CenterCard from './components/CenterCard';
 import Portfolio from "./components/Portfolio"
 import NavBar from "./components/NavBar"
 import AboutMe from "./components/AboutMe"
+import ParticleBackground from 'react-particle-backgrounds'
  import './App.css';
 
 function App() {
@@ -22,10 +23,10 @@ function App() {
   }, [])
 
   // ADDS NEW PROJECT (FORM CB FUNCTION)
-    const addNewProject = (newProject) => {
-      const newData = [...projects, newProject]
-      setProjects(newData)
-    }
+    // const addNewProject = (newProject) => {
+    //   const newData = [...projects, newProject]
+    //   setProjects(newData)
+    // }
 
 
     function getCurrentPage() {
@@ -45,6 +46,27 @@ function App() {
       }
     }
 
+
+    const settings = {
+      particle: {
+        particleCount: 100,
+        color: "black",
+        minSize: 2,
+        maxSize: 4
+      },
+      velocity: {
+        directionAngle: 0,
+        directionAngleVariance: 30,
+        minSpeed: 0.2,
+        maxSpeed: 4
+      },
+      opacity: {
+        minOpacity: 0,
+        maxOpacity: 0.5,
+        opacityTransitionTime: 5000
+      }
+    }
+
   return (
     <div className="App">
        <NavBar onChangePage={setPage}/>
@@ -53,6 +75,7 @@ function App() {
           <Portfolio projects={projects}/>
            <NewProjectForm url={url}/>
            <CenterCard url={url}/> */}
+            <ParticleBackground settings={settings}/>
     </div>
   );
 }
