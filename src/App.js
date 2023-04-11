@@ -14,9 +14,9 @@ function App() {
   const [projects, setProjects] = useState([])
   const [page, setPage] = useState("/")
 
-  const url = "http://localhost:3000/projects"
+  // const url = "http://localhost:3000/projects"
   //const url = "https://jsonkeeper.com/b/BATK"
-
+  const url = "https://personal-website-api-jwi8.onrender.com/projects"
 
   useEffect(() => {
     fetch(url)
