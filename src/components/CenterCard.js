@@ -7,7 +7,7 @@ import ContactInfo from "./ContactInfo"
 
 
 
-function CenterCard({url}) {
+function CenterCard() {
 
     return (
 
@@ -18,7 +18,7 @@ function CenterCard({url}) {
         <Content/>
         <ContactInfo/>
       </div>
-      
+
     )
 }
 

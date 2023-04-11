@@ -14,15 +14,16 @@ function App() {
   const [projects, setProjects] = useState([])
   const [page, setPage] = useState("/")
 
-  // const url = "http://localhost:3000/projects"
-  const url = "https://jsonkeeper.com/b/BATK"
+  const url = "http://localhost:3000/projects"
+  //const url = "https://jsonkeeper.com/b/BATK"
+
 
   useEffect(() => {
     fetch(url)
     .then(res => res.json())
     .then(data => setProjects(data))
-  }, [])
-
+   }, [])
+console.log("line 25 | project data: ", projects)
   // ADDS NEW PROJECT (FORM CB FUNCTION)
     // const addNewProject = (newProject) => {
     //   const newData = [...projects, newProject]
@@ -33,7 +34,7 @@ function App() {
     function getCurrentPage() {
       switch (page) {
         case "/":
-          return <CenterCard url={url}/>
+          return <CenterCard/>
           case "/AboutMe":
             return <AboutMe/>
          case "/Portfolio":
@@ -67,6 +68,8 @@ function App() {
         opacityTransitionTime: 5000
       }
     }
+
+
 
   return (
     <div className="App">
