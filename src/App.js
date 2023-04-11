@@ -14,7 +14,8 @@ function App() {
   const [projects, setProjects] = useState([])
   const [page, setPage] = useState("/")
 
-  const url = "http://localhost:3000/projects"
+  // const url = "http://localhost:3000/projects"
+  const url = "https://jsonkeeper.com/b/BATK"
 
   useEffect(() => {
     fetch(url)
