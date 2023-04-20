@@ -16,7 +16,7 @@ code {
 :root {
   text-align: center;
   /* background-color: antiquewhite; */
-  background-color: rgb(224, 39, 70);
+  background-color: #bdacd1;
 }
 
 * {
@@ -26,7 +26,7 @@ code {
 
 body,
 html {
-  color: rgb(224, 39, 70);
+  color: whitesmoke;
   font-family: italic;
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@ html {
 .center {
   /* width: 100%; */
   width: 2000px;
-  background-color: black;
+  background-color:#967bb6;
   height: 100%;
   text-align: center;
   border-radius: 5px;
@@ -166,7 +166,7 @@ html {
 
 .project {
   margin: 1rem;
-  background-color:black;
+  background-color:#967bb6;
   /* border-radius: 5px; */
   width:400px;
   margin:20px;
@@ -226,6 +226,9 @@ html {
   margin-top: 35px
 }
 
+#tizzop {
+  margin-top: 10px
+}
 
 /* about me */
 
@@ -253,3 +256,6 @@ html {
   width: "400%"
 
 }
+
+
+

@@ -1,20 +1,5 @@
 
-import React, { useState } from "react"
-import CenterCard from './components/CenterCard';
-import Portfolio from "./components/Portfolio"
-import NavBar from "./components/NavBar"
-import AboutMe from "./components/AboutMe"
-import ParticleBackground from 'react-particle-backgrounds'
-// import { PROJECTDATA } from "../data.js";
-import './App.css';
-
-function App() {
-
-  const [page, setPage] = useState("/")
-
-
-
-  const projectData = [
+  export const PROJECTDATA = [
     {
       "name": "Abeona/Adiona",
       "images": [
@@ -104,52 +89,3 @@ function App() {
   ]
 
 
-
-
-    function getCurrentPage() {
-      switch (page) {
-        case "/":
-          return <CenterCard/>
-          case "/AboutMe":
-            return <AboutMe/>
-         case "/Portfolio":
-        return <Portfolio projects={projectData}/>
-          break;
-        default:
-          return <h1>404 not found</h1>
-      }
-    }
-
-
-    const settings = {
-      particle: {
-        particleCount: 100,
-        color: "black",
-        minSize: 2,
-        maxSize: 4
-      },
-      velocity: {
-        directionAngle: 0,
-        directionAngleVariance: 30,
-        minSpeed: 0.2,
-        maxSpeed: 4
-      },
-      opacity: {
-        minOpacity: 0,
-        maxOpacity: 0.5,
-        opacityTransitionTime: 5000
-      }
-    }
-
-
-
-  return (
-    <div className="App">
-       <NavBar onChangePage={setPage}/>
-       {getCurrentPage()}
-        <ParticleBackground settings={settings}/>
-    </div>
-  );
-}
-
-export default App;
