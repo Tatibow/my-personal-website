@@ -44,13 +44,13 @@ html {
 }
 
 .center {
-  /* width: 100%; */
-  width: 2000px;
-  background-color:#967bb6;
+  width: 100%;
+  /* width: 2000px; */
+  background-color: #967bb6;
   height: 100%;
   text-align: center;
   border-radius: 5px;
-  margin-top:50px
+  margin-top: 50px
 }
 
 /* button */
@@ -166,10 +166,10 @@ html {
 
 .project {
   margin: 1rem;
-  background-color:#967bb6;
+  background-color: #967bb6;
   /* border-radius: 5px; */
-  width:400px;
-  margin:20px;
+  width: 400px;
+  margin: 20px;
   border-radius: 20px;
 }
 
@@ -198,12 +198,12 @@ html {
 @media (min-width: 1024px) {
   .project {
     width: calc(25% - 2rem);
-  width:400px;
-  border:1px solid lightgray;
-  margin:20px;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow:0 5px 5px rgba(0,0,0,0.5)
+    width: 400px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5)
   }
 }
 
@@ -234,7 +234,7 @@ html {
 
 .about-me-headers {
   margin-top: 55px;
-  border-top:  2px solid black;
+  border-top: 2px solid black;
 }
 
 .social {
@@ -242,13 +242,18 @@ html {
   margin: 1rem 2rem;
 }
 
-.about-me, html {
+.about-me,
+html {
   color: black;
 }
-.passionate-about, html {
+
+.passionate-about,
+html {
   color: black;
 }
-.learning, html {
+
+.learning,
+html {
   color: black;
 }
 
@@ -256,6 +261,3 @@ html {
   width: "400%"
 
 }
-
-
-

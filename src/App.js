@@ -121,25 +121,25 @@ function App() {
     }
 
 
-    const settings = {
-      particle: {
-        particleCount: 100,
-        color: "black",
-        minSize: 2,
-        maxSize: 4
-      },
-      velocity: {
-        directionAngle: 0,
-        directionAngleVariance: 30,
-        minSpeed: 0.2,
-        maxSpeed: 4
-      },
-      opacity: {
-        minOpacity: 0,
-        maxOpacity: 0.5,
-        opacityTransitionTime: 5000
-      }
-    }
+    // const settings = {
+    //   particle: {
+    //     particleCount: 100,
+    //     color: "black",
+    //     minSize: 2,
+    //     maxSize: 4
+    //   },
+    //   velocity: {
+    //     directionAngle: 0,
+    //     directionAngleVariance: 30,
+    //     minSpeed: 0.2,
+    //     maxSpeed: 4
+    //   },
+    //   opacity: {
+    //     minOpacity: 0,
+    //     maxOpacity: 0.5,
+    //     opacityTransitionTime: 5000
+    //   }
+    // }
 
 
 
@@ -147,7 +147,7 @@ function App() {
     <div className="App">
        <NavBar onChangePage={setPage}/>
        {getCurrentPage()}
-        <ParticleBackground settings={settings}/>
+        {/* <ParticleBackground settings={settings}/> */}
     </div>
   );
 }
